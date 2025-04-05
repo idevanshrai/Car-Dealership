@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoElite - Premium Car Marketplace</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="/images/logo.png" alt="AutoElite Logo">
+                <span>AutoElite</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#inventory">Inventory</a></li>
+                    <li><a href="#sell">Sell Your Car</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="btn login-btn">Login</button>
+                <button class="btn register-btn">Register</button>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Find Your Dream Car Today</h1>
+            <p>Browse thousands of premium vehicles from trusted sellers nationwide</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Search by make, model, or keyword">
+                <select>
+                    <option value="">All Makes</option>
+                    <option value="audi">Audi</option>
+                    <option value="bmw">BMW</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="tesla">Tesla</option>
+                </select>
+                <select>
+                    <option value="">All Prices</option>
+                    <option value="0-25000">Under $25K</option>
+                    <option value="25000-50000">$25K - $50K</option>
+                    <option value="50000-100000">$50K - $100K</option>
+                    <option value="100000+">Over $100K</option>
+                </select>
+                <button class="btn search-btn">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-cars" id="inventory">
+        <div class="container">
+            <h2>Featured Vehicles</h2>
+            <div class="car-grid">
+                <div class="car-card">
+                    <img src="/images/car1.jpg" alt="Tesla Model S">
+                    <div class="car-info">
+                        <h3>Tesla Model S Plaid</h3>
+                        <div class="car-specs">
+                            <span><i class="fas fa-tachometer-alt"></i> 1,020 hp</span>
+                            <span><i class="fas fa-bolt"></i> Electric</span>
+                            <span><i class="fas fa-clock"></i> 1.99s 0-60</span>
+                        </div>
+                        <div class="car-price">
+                            <span>$89,990</span>
+                            <button class="btn view-details">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <img src="/images/car2.jpg" alt="Porsche 911">
+                    <div class="car-info">
+                        <h3>Porsche 911 Turbo S</h3>
+                        <div class="car-specs">
+                            <span><i class="fas fa-tachometer-alt"></i> 640 hp</span>
+                            <span><i class="fas fa-gas-pump"></i> Premium</span>
+                            <span><i class="fas fa-clock"></i> 2.6s 0-60</span>
+                        </div>
+                        <div class="car-price">
+                            <span>$203,500</span>
+                            <button class="btn view-details">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-card">
+                    <img src="/images/car3.jpg" alt="Range Rover">
+                    <div class="car-info">
+                        <h3>Range Rover Autobiography</h3>
+                        <div class="car-specs">
+                            <span><i class="fas fa-tachometer-alt"></i> 518 hp</span>
+                            <span><i class="fas fa-gas-pump"></i> Premium</span>
+                            <span><i class="fas fa-car"></i> 4WD</span>
+                        </div>
+                        <div class="car-price">
+                            <span>$145,000</span>
+                            <button class="btn view-details">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn view-all">View All Inventory</button>
+        </div>
+    </section>
+
+    <section class="sell-car" id="sell">
+        <div class="container">
+            <div class="sell-content">
+                <h2>Sell Your Car With Confidence</h2>
+                <p>Get the best price for your vehicle with our premium selling platform. We connect you with serious buyers and handle all the paperwork.</p>
+                <ul class="sell-features">
+                    <li><i class="fas fa-check-circle"></i> Free valuation</li>
+                    <li><i class="fas fa-check-circle"></i> No hidden fees</li>
+                    <li><i class="fas fa-check-circle"></i> Secure transactions</li>
+                    <li><i class="fas fa-check-circle"></i> Nationwide buyer network</li>
+                </ul>
+                <button class="btn sell-now">Sell Now</button>
+            </div>
+            <div class="sell-image">
+                <img src="/images/banner.jpg" alt="Sell your car">
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"I sold my BMW in just 3 days for more than I expected. The process was seamless and the team was incredibly professional."</p>
+                    <div class="customer">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael R.">
+                        <span>Michael R.</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Found my dream Porsche through AutoElite. The verification process gave me confidence in the purchase."</p>
+                    <div class="customer">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah K.">
+                        <span>Sarah K.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h3>Stay Updated With The Best Deals</h3>
+            <p>Subscribe to our newsletter for exclusive offers and new arrivals</p>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit" class="btn subscribe-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <img src="/images/logo.png" alt="AutoElite Logo">
+                        <span>AutoElite</span>
+                    </div>
+                    <p>Premium car marketplace connecting buyers and sellers nationwide since 2015.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#inventory">Inventory</a></li>
+                        <li><a href="#sell">Sell Your Car</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Auto Drive, Motor City, MC 12345</li>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@autoelite.com</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Business Hours</h4>
+                    <ul>
+                        <li>Monday - Friday: 9:00 AM - 7:00 PM</li>
+                        <li>Saturday: 10:00 AM - 5:00 PM</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 AutoElite. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
